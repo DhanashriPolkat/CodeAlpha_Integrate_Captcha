@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 70px;
+    font-family: "Roboto",sans-serif;
+    background: #a880ad;
+}
+
+div{
+    padding-top: 30px;
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    box-shadow: 10px 10px 15px;
+    line-height: 40px;
+    border-radius: 15px;
+}
+
+
+input{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #888;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#refresh{
+    width: auto;
+    border-radius: 5px;
+}
+
+#Button1{
+    width: auto;
+    border-radius: 5px;
+
+}
+
+#txtinput{
+    border: 1.5px dashed #888;
+}
+
+
+#error{
+    color: red;
+    font-size: 20px;
+}
+
+#success{
+    padding-top: 50px;
+    color: rgb(174, 226, 52);
+    font-size: 20px;
+}

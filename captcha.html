@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="captcha.css">
+</head>
+<body>
+
+    <script src="captcha.js"></script>
+
+
+    <center>
+        <div>
+            
+        <h1> Verify Captcha</h1>
+        <table>
+        <tr>
+        <td>
+        
+        </td>
+        </tr>
+        
+        <tr>
+        <td>
+        <input type="text" id="mainCaptcha" readonly="readonly"/>
+        <input type="button" id="refresh" value="Refresh" onclick="generateCaptcha();"/>
+        </td>
+        </tr><br>
+        
+        <tr>
+        <td>
+        <input type="text" id="txtinput"/>
+        </td>
+        </tr>
+        
+        <tr>
+        <td>
+        <input type="button" id="Button1" value="Check" onclick="CheckValidCaptcha();"/>
+        </td>
+        </tr>
+        
+        
+        <tr>
+        <td>
+        <span id="error" ></span>
+        </td>
+        </tr>
+        
+        <tr>
+        <td>
+        <span id="success" ></span>
+        
+        </td>
+        </tr>
+        
+        </table>
+    </div>
+        </center>
+</body>
+</html>
